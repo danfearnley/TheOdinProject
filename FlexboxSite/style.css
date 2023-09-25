@@ -1,0 +1,52 @@
+.header {
+    height: 50px;
+    background-color: #1F2937;
+    display:flex;
+}
+
+.info {
+    height: 400px;
+    background-color: #1F2937;
+    display:flex;
+}
+
+.randomInfo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.randomBoxes {
+    display: flex;
+    gap: 30px;
+}
+
+
+.randomBox {
+    display: flex;
+    flex-direction: column;
+    inline-size: min-content;
+}
+
+.randomBox div {
+    border: solid #1F2937 2px;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.randomBox p {
+    text-align: center;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    text-align: left;
+}
