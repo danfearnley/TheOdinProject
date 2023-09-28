@@ -1,5 +1,3 @@
-console.log("Hello world")
+let lastLetter = (string) => string.charAt((string.length - 1));
 
-let isPositive = a => a > 0
-
-alert(isPositive(3))
+alert(lastLetter("qwer"));
