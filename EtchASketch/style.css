@@ -1,0 +1,14 @@
+.gridRow {
+    display: flex;
+}
+
+
+.gridCell {
+    width: 20px;
+    height: 20px;
+}
+
+div {
+    border: solid red 1px;
+    margin: 0;
+}

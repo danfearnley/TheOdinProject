@@ -22,8 +22,8 @@ function playGame(playerChoice, computerChoice) {
             Score is Player:${k} Computer:${l}`;
         }
     else if ((player === "rock" && computer === "paper") ||
-    (player === "scissors" && computer === "rock") ||
-    (player === "paper" && computer === "scissors")) {
+            (player === "scissors" && computer === "rock") ||
+            (player === "paper" && computer === "scissors")) {
         l++;
         return `You lose! ${computer} beats ${player}
         Score is Player:${k} Computer:${l}`;
